@@ -1,4 +1,4 @@
-const WP_URL = process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://jusmedia.co.uk/index.php?rest_route=/wp/v2";
+const WP_URL = process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://shef-live.co.uk/index.php?rest_route=/wp/v2";
 
 function getUrl(path: string) {
   const separator = WP_URL.includes("?") ? "&" : "?";
